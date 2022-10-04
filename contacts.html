@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária PetZych</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h2>Menu</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" target="_blank">Quem Somos</a></li>
+                    <li><a href="times.html" target="_blank">Horários de Atendimento</a></li>
+                    <li><a href="contacts.html" target="_blank">Contato</a></li>
+                </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="https://www.clinicaveterinaria24horas.com.br/wp-content/uploads/2019/11/SELO-CLINICA-24H-BRANCO-731x216.png" alt="Banner da clínica Veterinária em vermelho com atendimento 24 horas" title="Clínica Veterinária atendimento 24 horas">
+                <img id="banner-contato" src="http://www.lirao.com.br/img/contato.png" title="banner da clínica">
+            </div>
+    
+            <div class="content">
+                <h2>Entre em contato conosco</h2>
+                <div class="contato-itens">
+                    <div class="local">
+                        <p id="onde">Onde estamos?</p>
+                        <p>📌 R. Morretes, 310 - Portão, Curitiba - PR, 80610-150</p>
+                        <p>📞 Celular: (41) 1234-5649</p>
+                        <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png"> WhatsApp: (41) 99123-3265</p>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.079759546!2d-49.292575448867375!3d-25.469012040593604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce364604b56e9%3A0x17d0d24e55278402!2sR.%20Morretes%2C%20310%20-%20Port%C3%A3o%2C%20Curitiba%20-%20PR%2C%2080610-150!5e0!3m2!1spt-BR!2sbr!4v1664820809868!5m2!1spt-BR!2sbr" width="150" height="150" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <form id="form" onsubmit="enviarForm()" method="post" action="https://meuservidoremail.com.br">
+                        <label for="nome">Nome:</label><input placeholder="Digite seu nome completo" type="text" name="nome" id="nome" autocomplete="1"><br>
+                        <label for="telefone">Telefone:</label><input placeholder="(xx)xxxxxxxx" type="number" id="telefone"><br>
+                        <label for="email">E-mail:</label><input placeholder="seuemail@email.com.br" type="email" id="email"><br>
+                        <label for="subject">Assunto:</label><input placeholder="Qual o assunto da mensagem?" type="text" id="subject"><br>
+                        <label for="message">Mensagem:</label><textarea placeholder="Digite sua mensagem..." name="message" id="message"></textarea><br>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar campos</button>
+                    </form>
+                </div>
+            </div>
+    
+            <div class="footer">
+                <h4>Redes Sociais</h4>
+                    <p><a href="https://www.instagram.com/guizych" target="_blank"><img id="logo-insta" src="./logo_insta.png" alt="Instagram logo"> Instagram</a>
+                        <a href="https://www.twitter.com/guiboo" target="_blank"><img id="logo-twitter" src="Twitter logo.png" alt="Twitter logo"> Twitter</a>
+                        <a href="https://www.facebook.com/guizych" target="_blank"><img id="logo-face" src="Imagem-Logo-Facebook-PNG.png" alt="Facebook logo"> Facebook</a>
+                    </p>
+                <div class="copy">
+                    <p>© PETZYCH BRASIL - 2022 | TODOS OS DIREITOS RESERVADOS. Desenvolvido por Guilherme Zych</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

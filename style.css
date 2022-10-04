@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(115, 230, 192);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(99, 201, 184);
+    width: 15%;
+    background: rgba(73, 8, 101, 0.87);
+    padding: 10px 20px 0px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu li {
+    margin: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    background: rgba(73, 8, 101, 0.87);
+    max-height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    max-width: 50vh;
+}
+
+.content {
+    font-family: 'Secular One', sans-serif;
+    color: yellow;
+    background-color: rgba(73, 8, 101, 0.87);
+    min-height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    text-align: justify;
+    align-items: center;
+}
+
+.content p {
+    font-size: 8px;
+}
+
+.content #bem-vindo {
+    width: 250px;
+    color: whitesmoke;
+}
+
+#bem-vindo p {
+    font-size: 9px;
+}
+
+.content #sobre-nos {
+    width: 250px;
+    color: whitesmoke;
+}
+
+#sobre-nos p {
+    font-size: 9px;
+}
+
+#img-about {
+    width: 450px;
+}
+
+#img-horarios {
+    width: 230px;
+}
+
+#atendimento p {
+    color: whitesmoke;
+    font-size: 9px;
+}
+
+#tabela {
+    -webkit-box-shadow: 10px 12px 4px 0px rgba(0,0,0,0.19); 
+    box-shadow: 10px 12px 4px 0px rgba(0,0,0,0.19);
+    border: solid 1px yellow;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 45px;
+}
+
+#tabela-cabecalho {
+    color: whitesmoke;
+    font-size: 8px;
+    background-color: black;
+}
+
+#tabela-corpo {
+    font-size: 7px;
+    color: whitesmoke;
+}
+
+#banner-contato {
+    width: 40vh;
+    margin-left: 20vh;
+}
+
+.contato-itens {
+    margin-top: 30px;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.local {
+    height: 70px;
+}
+
+.local #onde {
+    font-size: large;
+    margin: 0;
+    color: rgb(114, 185, 168);
+}
+
+.local img {
+    width: 2vh;
+}
+
+iframe {
+    border: solid 1px yellow;
+    border-radius: 100%;
+}
+
+form {
+    font-size: 10px;
+    align-items: flex-end;
+}
+
+#form input, textarea {
+    width: 100px;
+    border-radius: 5px;
+}
+
+form input::placeholder {
+    font-size: 7px;
+}
+
+textarea::placeholder {
+    font-size: 7px;
+}
+
+label {
+    display: inline-block;
+    width: 60px;
+}
+
+#form button {
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 9px;
+    padding: 2px 9px;
+}
+
+.footer {
+    background-color: rgba(73, 8, 101, 0.87);
+    max-height: 100px;
+}
+
+.footer h4 {
+    font-family: 'Tahoma', monospace;
+    color: rgba(239, 239, 15, 0.953);
+    text-align: center;
+    margin: 10px;
+}
+
+.footer p, a {
+    color: rgba(239, 239, 15, 0.953);
+    font-size: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+}
+
+.copy p {
+    color: #f1f1f1;
+    font-size: 10px;
+    max-width: 440px;
+}
+
+#logo-insta, #logo-twitter, #logo-face {
+    width: 2%;
+}
